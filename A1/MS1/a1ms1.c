@@ -3,10 +3,10 @@
 
 /*/////////////////////////////////////////////////////////////////////////
                         Assignment 1 - Milestone 1
-Full Name  :
-Student ID#:
-Email      :
-Section    :
+Full Name  :    Rendell Velasco
+Student ID#:    140014218
+Email      :    rvelasco6@myseneca.ca
+Section    :    NDD
 
 Authenticity Declaration:
 I declare this submission is the result of my own work and has not been
@@ -290,39 +290,39 @@ void test09_displayPhone(void)
     char phone7[10 + 1] = "4161114444";
 
     printf("////////////////////////////////////////\n");
-    printf("TEST #9 RESULT:\n");
-    printf("Expecting (___)___-____ => Your result: ");
-    // You may want to comment the next line if you have not yet created the displayFormattedPhone function:
+    printf("test #9 result:\n");
+    printf("expecting (___)___-____ => your result: ");
+    // you may want to comment the next line if you have not yet created the displayformattedphone function:
     displayFormattedPhone(phone1);
     putchar('\n');
 
-    printf("Expecting (___)___-____ => Your result: ");
-    // You may want to comment the next line if you have not yet created the displayFormattedPhone function:
+    printf("expecting (___)___-____ => your result: ");
+    // you may want to comment the next line if you have not yet created the displayformattedphone function:
     displayFormattedPhone(phone2);
     putchar('\n');
 
-    printf("Expecting (___)___-____ => Your result: ");
-    // You may want to comment the next line if you have not yet created the displayFormattedPhone function:
+    printf("expecting (___)___-____ => your result: ");
+    // you may want to comment the next line if you have not yet created the displayformattedphone function:
     displayFormattedPhone(phone3);
     putchar('\n');
 
-    printf("Expecting (___)___-____ => Your result: ");
-    // You may want to comment the next line if you have not yet created the displayFormattedPhone function:
+    printf("expecting (___)___-____ => your result: ");
+    // you may want to comment the next line if you have not yet created the displayformattedphone function:
     displayFormattedPhone(phone4);
     putchar('\n');
 
-    printf("Expecting (___)___-____ => Your result: ");
-    // You may want to comment the next line if you have not yet created the displayFormattedPhone function:
+    printf("expecting (___)___-____ => your result: ");
+    // you may want to comment the next line if you have not yet created the displayformattedphone function:
     displayFormattedPhone(phone5);
     putchar('\n');
 
-    printf("Expecting (___)___-____ => Your result: ");
-    // You may want to comment the next line if you have not yet created the displayFormattedPhone function:
+    printf("expecting (___)___-____ => your result: ");
+    // you may want to comment the next line if you have not yet created the displayformattedphone function:
     displayFormattedPhone(phone6);
     putchar('\n');
 
-    printf("Expecting (416)111-4444 => Your result: ");
-    // You may want to comment the next line if you have not yet created the displayFormattedPhone function:
+    printf("expecting (416)111-4444 => your result: ");
+    // you may want to comment the next line if you have not yet created the displayformattedphone function:
     displayFormattedPhone(phone7);
     printf("\n"
            "////////////////////////////////////////\n\n");
