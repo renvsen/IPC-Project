@@ -1,9 +1,9 @@
 /*/////////////////////////////////////////////////////////////////////////
                         Assignment 1 - Milestone 2
-Full Name  :
-Student ID#:
-Email      :
-Section    :
+Full Name  :    Rendell Velasco
+Student ID#:    140014218
+Email      :    rvelasco6@myseneca.ca
+Section    :    NDD
 
 Authenticity Declaration:
 I declare this submission is the result of my own work and has not been
@@ -40,10 +40,20 @@ piece of work is entirely of my own creation.
 
 // Data type: Phone
 // ToDo:
-
+struct Phone
+{
+    char description[PHONE_DESC_LEN + 1];
+    char number[PHONE_LEN + 1];
+};
 
 // Data type: Patient 
 // ToDo:
+struct Patient
+{
+    int patientNumber;
+    char name[NAME_LEN + 1];
+    struct Phone phone;
+};
 
 
 // ClinicData type: Provided to student
@@ -117,8 +127,7 @@ void searchPatientByPhoneNumber(const struct Patient patient[], int max);
 int nextPatientNumber(const struct Patient patient[], int max);
 
 // Find the patient array index by patient number (returns -1 if not found)
-int findPatientIndexByPatientNum(int patientNumber,
-                                 const struct Patient patient[], int max);
+int findPatientIndexByPatientNum(int patientNumber, const struct Patient patient[], int max);
 
 
 //////////////////////////////////////
